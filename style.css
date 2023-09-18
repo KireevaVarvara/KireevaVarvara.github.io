@@ -1,0 +1,66 @@
+body 
+  {
+    margin: 0;
+  }
+  
+  header 
+  {
+    background-color: #ccc;
+    padding: 15px;
+    height: 110px;
+    width: 100%;
+  }
+
+  .menu 
+  {
+    position: absolute;
+    top: 0;
+    right: 150px;
+    font-size: 20px;
+  }
+  .menu a {
+    margin-right: 10px;
+  }
+  
+  .name {
+    background-color: #ccc;
+    padding: 10px;
+  }
+  
+  .body {
+    max-width: 900px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 0px;
+    padding: 10px;
+  }
+  
+  footer {
+    background-color: #ccc;
+    height: 25px;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th, td {
+    padding: 5px;
+    text-align: center;
+  }
+  
+  th {
+      font-size: 20px;
+      text-align: center;
+      background-color: #ccc
+    }
+  
+  tr:nth-child(even) {
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  tr:nth-child(odd) {
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+  }
