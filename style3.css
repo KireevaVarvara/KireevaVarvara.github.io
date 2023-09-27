@@ -16,7 +16,7 @@ body
 }
 #main-aside-wrapper main, #main-aside-wrapper aside {
   background-color: #ccc;
-
+  flex-direction: column;
 }
 #main-aside-wrapper aside {
   flex: 1;
