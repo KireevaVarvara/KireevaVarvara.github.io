@@ -11,33 +11,31 @@ body
   flex-direction: column;
   flex-wrap: wrap;
   min-height: 100%;
-   margin: 10px;
+  margin: 10px;
   padding: 10px;
- 
 }
+
 #main-aside-wrapper main, #main-aside-wrapper aside 
 {
-  background-color: #ccc;
-
+  background-color: beige;
 }
+
 #main-aside-wrapper aside 
 {
   flex: 1;
   order: 1;
-  
 }
+
 #main-aside-wrapper main 
 {
   flex: 1;
   order: 2;
-
 }
 
 #main-aside-wrapper nav 
 {
   flex: 1;
   order: 3;
-  width: 100%;
   display: block;
 }
 
@@ -45,30 +43,27 @@ body
 {
   flex: 1;
   order: 5;
-  width: 100%;
 }
 
 #main-aside-wrapper tabl 
 {
   flex: 1;
   order: 4;
-  width: 100%;
 }
 
 #main-aside-wrapper forma 
 {
   flex: 1;
   order: 6;
-  width: 100%;
 }
 
 #main-aside-wrapper foot 
 {
   flex: 1;
   order: 7;
-  background-color: #ccc;
-
+  background-color: bisque;
 }
+
 @media screen and (min-width: 1000px) 
 {
   #main-aside-wrapper 
@@ -77,58 +72,62 @@ body
     flex: 1;
     order: 1;
     margin: 0 auto;
+    background-color: beige;
+  }
+  #main-aside-wrapper aside 
+  {
+    background-color: bisque;
+  }
+  #main-aside-wrapper main 
+  {
+    flex: 1;
+    order: 3;
+    background-color: beige;
   }
 
-#main-aside-wrapper main 
+  #main-aside-wrapper nav 
+  {
+    flex: 1;
+    order: 2;
+    position: relative;
+    left: 70%;
+    width: 100%;
+  }
+
+  #main-aside-wrapper links 
+  {
+    flex: 1;
+    order: 4;
+  }
+
+  #main-aside-wrapper tabl 
+  {
+    flex: 1;
+    order: 5;
+    text-align: center;
+  }
+
+  #main-aside-wrapper forma 
+  {
+   flex: 1;
+    order: 6;
+  }
+
+  #main-aside-wrapper foot 
+  {
+    flex: 1;
+    order: 7;
+    background-color: bisque;
+  }
+
+  #main-aside-wrapper ul li 
+  {
+   display: inline;
+  }
+}
+
+#logo 
 {
-  flex: 1;
-  order: 3;
-
-}
-
-#main-aside-wrapper nav 
-{
-  flex: 1;
-  order: 2;
-  position: relative;
-  left: 70%;
-}
-
-
-#main-aside-wrapper links 
-{
-  flex: 1;
-  order: 4;
-  width: 100%;
-}
-
-#main-aside-wrapper tabl 
-{
-  flex: 1;
-  order: 5;
-  width: 100%;
-}
-
-#main-aside-wrapper forma {
-  flex: 1;
-  order: 6;
-  width: 100%;
-}
-
-#main-aside-wrapper foot {
-  flex: 1;
-  order: 7;
-  background-color: #ccc;
-
-}
-
-#main-aside-wrapper ul li 
-{
-  display: inline;
-}
-}
-
-#logo {
    float: left;
    max-width: 100%;
    height: auto;
@@ -216,5 +215,4 @@ h1{
 h2,h3,h4
 {
   font-size: 30px;
-  background-color: bisque;
 }
