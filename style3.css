@@ -5,7 +5,8 @@ body
   font-size: 20px;
 }
 
-#main-aside-wrapper {
+#main-aside-wrapper 
+{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -14,83 +15,95 @@ body
   padding: 10px;
  
 }
-#main-aside-wrapper main, #main-aside-wrapper aside {
+#main-aside-wrapper main, #main-aside-wrapper aside 
+{
   background-color: #ccc;
 
 }
-#main-aside-wrapper aside {
+#main-aside-wrapper aside 
+{
   flex: 1;
   order: 1;
   
 }
-#main-aside-wrapper main {
+#main-aside-wrapper main 
+{
   flex: 1;
   order: 2;
 
 }
 
-#main-aside-wrapper nav {
+#main-aside-wrapper nav 
+{
   flex: 1;
   order: 3;
   width: 100%;
   display: block;
 }
 
-#main-aside-wrapper links {
+#main-aside-wrapper links 
+{
   flex: 1;
   order: 5;
   width: 100%;
 }
 
-#main-aside-wrapper tabl {
+#main-aside-wrapper tabl 
+{
   flex: 1;
   order: 4;
   width: 100%;
 }
 
-#main-aside-wrapper forma {
+#main-aside-wrapper forma 
+{
   flex: 1;
   order: 6;
   width: 100%;
 }
 
-#main-aside-wrapper foot {
+#main-aside-wrapper foot 
+{
   flex: 1;
   order: 7;
   background-color: #ccc;
 
 }
-@media screen and (min-width: 1000px) {
-  #main-aside-wrapper {
+@media screen and (min-width: 1000px) 
+{
+  #main-aside-wrapper 
+  {
     flex-direction: column;
     flex: 1;
     order: 1;
     margin: 0 auto;
   }
 
-#main-aside-wrapper main {
+#main-aside-wrapper main 
+{
   flex: 1;
   order: 3;
 
 }
 
-#main-aside-wrapper nav {
+#main-aside-wrapper nav 
+{
   flex: 1;
   order: 2;
   position: relative;
   left: 70%;
-  
-
 }
 
 
-#main-aside-wrapper links {
+#main-aside-wrapper links 
+{
   flex: 1;
   order: 4;
   width: 100%;
 }
 
-#main-aside-wrapper tabl {
+#main-aside-wrapper tabl 
+{
   flex: 1;
   order: 5;
   width: 100%;
@@ -109,7 +122,10 @@ body
 
 }
 
-#main-aside-wrapper ul li {display: inline;}
+#main-aside-wrapper ul li 
+{
+  display: inline;
+}
 }
 
 #logo {
