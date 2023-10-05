@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Задание 4</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style4.css">
+</head>
+
+<body>
+  <div id="wrapper mx-auto">
+
+    <header class="container-fluid pb-2">
+      <div class="shapka col-12">
+        
+        
+        <nav class="float-end mt-3" id="nav1">
+          <ul>
+            <li class="ul-li d-md-inline-block mx-5"><a href="#links">LINKS</a></li>
+            <li class="ul-li d-md-inline-block mx-5"><a href="#tb">TABLE</a></li>
+            <li class="ul-li d-md-inline-block mx-5"><a href="#form">FORM</a></li>
+          </ul>
+        </nav>   
+        <h1 class="float-end mt-5">WEB DESIGN KUBSU</h1>
+      </div>
+      <img src="free-icon-it-department-8740993.png" class="img-fluid logo" alt="логотип" id="logo">  
+    </header>
+
+  
+  <div class="col col-12 mx-auto my-2" id="links">
+    <h2 class="col-12">ССЫЛКИ </h2>
+    <ol>
+      <li> <a href="http://kubsu.ru" id="beginning"> Задание 1.1 </a>(абсолютная гиперссылка на главную страницу сайта kubsu.ru)</li><br>
+      <li> <a href="https://kubsu.ru"> Задание 1.2 </a>(абсолютная на главную сайта kubsu.ru в протоколе https)</li><br>
+      <li> <a href="http://kubsu.ru">Задание 1.3<img src="free-icon-connection-5500939.png" alt="картинка" style="height: 200px; width: 200px;"></a><br>(ссылка-изображение)</li><br>
+      <li> <a href="/"> Задание 1.4 </a>(сокращенная ссылка на внутреннюю страницу)</li><br>
+      <li> <a href="index.html"> Задание 1.5 </a>(сокращенная ссылка на главную страницу)</li><br>
+      <li> <a href="#beginning"> Задание 1.6 </a>(ссылка на фрагмент текущей страницы)</li><br>
+      <li> <a href="http://kubsu.ru/?param1=p1&amp;param2=p2&amp;param3=p3"> Задание 1.7 </a>(ссылка с тремя параметрами в URL)</li><br>
+      <li> <a href="http://kubsu.ru/?id=15"> Задание 1.8 </a>(ссылка с параметром id в URL)</li><br>
+      <li> <a href="./page1.html"> Задание 1.9 </a>(относительная на страницу в текущем каталоге)</li><br>
+      <li> <a href="./about/page.html"> Задание 1.10 </a>(относительная на страницу в каталоге about)</li><br>
+      <li> <a href="../page1.html"> Задание 1.11 </a>(относительная на страницу в каталоге уровнем выше текущего)</li><br>
+      <li> <a href="../../page1.html"> Задание 1.12 </a>(относительная на страницу в каталоге двумя уровнями выше)</li><br>
+      <li> <p> Абзац <a href="http://kubsu.ru"> Задание 1.13 </a> абзац </p>(контекстная в тексте абзаца)</li><br>
+      <li> <a href="https://en.wikipedia.org/wiki/#SomeTag"> Задание 1.14 </a>(ссылка на фрагмент страницы стороннего сайта)</li>
+      <li> 
+        <p><img src="free-icon-connection-5500939.png" width="433" height="433" usemap="#map" alt="картинка"></p>
+        <p>
+          <map name="map"> <area shape="rect" alt="прямоугольник" coords="230,230,400,300" href="http://kubsu.ru">
+          <area shape="circle" alt="круг" coords="115,215,83" href="http://kubsu.ru"></map>
+        </p>(ссылки из прямоугольных и круглых областей картинки (HTML-тег map))
+      </li><br>
+      <li> <a href=""> Задание 1.16 </a>(ссылка с пустым href)</li><br>
+      <li> <a>Задание 1.17 </a>(ссылка без href)</li><br>
+      <li> <a href="http://kubsu.ru" rel="nofollow"> Задание 1.18 </a>(ссылка, по которой запрещен переход поисковикам)</li><br>
+      <li><!--noindex--> <a href="http://kubsu.ru"> Задание 1.19 </a><!--/noindex-->(запрещенная для индексации поисковиками)</li><br>
+      <li>(нумерованный список ссылок с подписями title)
+        <ol>
+          <li> <a title="1" href="http://kubsu.ru"> Первая ссылка задание 1.20 </a></li><br>
+          <li> <a title="2" href="http://kubsu.ru"> Вторая ссылка задание 1.20 </a></li><br>
+          <li> <a title="3" href="http://kubsu.ru"> Третья ссылка задание 1.20 </a></li><br>
+        </ol>
+      </li>
+      <li> <a href="ftp://user:password@kubsu.ru/page.html"> Задание 1.21 </a>(ссылка на файл на сервере FTP с авторизацией)</li>
+    </ol>
+  </div>
+  <div class="row mx-auto ">
+  <div class="table mx-auto order-2 order-md-1 col col-12 px-0">
+    <h2 class="col-12">Таблица </h2>
+    <table id="tb">
+
+      <tbody>
+        <tr>
+          <th>Европейский размер</th>
+          <th>Российский размер</th>
+          <th>Высота изделия</th>
+          <th>Ширина изделия</th>
+        </tr>
+        <tr>
+          <td>XS</td>
+          <td>42-44</td>
+          <td>67</td>
+          <td>45</td>
+        </tr>
+        <tr>
+          <td>S</td>
+          <td>44-46</td>
+          <td>69</td>
+          <td>48</td>
+        </tr>
+        <tr>
+          <td>M</td>
+          <td>46-48</td>
+          <td>71</td>
+          <td>51</td>
+        </tr>
+        <tr>
+          <td>L</td>
+          <td>48-50</td>
+          <td>73</td>
+          <td>54</td>
+        </tr>
+        <tr>
+          <td>XL</td>
+          <td>50-52</td>
+          <td>75</td>
+          <td>57</td>
+        </tr>
+        <tr>
+          <td colspan="4">THE BIGGEST DISCOUNTS IN KRASNODAR</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="form mx-auto order-1 order-md-2 px-2" id="form">
+    <h2>Форма HTML</h2>
+    <form action="/" method="POST">
+      <label>
+        Введите имя:<br>
+        <input name="field-name-1" placeholder="Введите имя">
+      </label>
+      <br>
+      <label>
+        Введите телефон:<br>
+        <input name="field-phone" placeholder="Введите телефон">
+      </label>
+      <br>
+      <label>
+        Введите e-mail:<br>
+        <input name="field-email" type="email" placeholder="Введите вашу почту">
+      </label>
+      <br>
+      <label>
+        Введите дату рождения:<br>
+        <input name="field-date" value="2023-09-10" type="date">
+      </label>
+      <br>
+      Пол:
+      <br>
+      <label>
+        <input type="radio" checked="checked" name="radio-group-1" value="f">
+        Женский
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="radio-group-1" value="m">
+        Мужской
+      </label>
+      <br>
+      <label>
+        Выберите любимый язык программирования:
+        <br>
+        <select name="field-name-4[]" multiple="multiple">
+          <option value="Значение1">Pascal</option>
+          <option value="Значение2">C</option>
+          <option value="Значение3">C++</option>
+          <option value="Значение4" selected="selected">JavaScript</option>
+          <option value="Значение5">PHP</option>
+          <option value="Значение6">Python</option>
+          <option value="Значение7">Java</option>
+          <option value="Значение8">Hascel</option>
+          <option value="Значение9">Cloujure</option>
+          <option value="Значение10">Prolog</option>
+          <option value="Значение11">Scala</option>
+        </select>
+      </label>
+      <br>
+      <label>
+        Введите биографию:
+        <br>
+        <textarea name="field-name-2">Введите биографию</textarea>
+      </label>
+      <br>
+      <label>
+        <input type="checkbox" checked="checked" name="check-1">
+        С контрактом ознакомлен(а)
+      </label>
+      <br>
+      <input type="submit" value="Отправить">
+    </form>
+  </div>
+</div>
+  <footer class="mt-2">
+    <div class="podval mx-auto" id="footer">
+          (с) Киреева Варвара 2023
+    </div>
+  </footer>
+</div>
+</body>
+
+
+</html>

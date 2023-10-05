@@ -1,0 +1,152 @@
+html {
+    height: 100%;
+    font-size: 15px;
+}
+h1{
+    
+}
+h2{
+
+    text-align: center;
+    background-color: bisque;
+}
+
+
+body{
+    background:white;
+}
+header, footer{
+    background-color: beige;
+    
+    
+}
+
+#links, .podval, #nav1, .form, .table{
+    background-color: beige;
+
+}
+
+.shapka, .podval
+{
+    background-color: beige;
+    
+}
+
+
+
+#nav1{
+   
+}
+#nav1 ul{
+
+}
+#nav1 ul li{
+    
+    
+    list-style-type: none;
+    
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+#logo{
+    
+    
+}
+table {
+    border-collapse: collapse;
+    border: 3px solid grey;
+    
+    text-align: center;
+    
+}
+td, th {
+    border: 1px solid grey;
+}
+tr:nth-child(2n+1) {
+    background: beige;
+}
+tr:nth-child(2n) {
+    background: bisque;
+
+}
+
+th {
+    background: beige;
+}
+.table{
+    order:2;
+}
+.form{
+    order:1;
+}
+footer{
+    order: 3;
+    background-color: bisque;
+}
+.podval{
+    background-color: bisque;
+}
+@media screen and (min-device-width: 800px) {
+    #wrapper {
+        display: block;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    h1{
+
+      
+    }
+
+    #nav1{
+
+        
+    }
+    #nav1 ul{
+        text-align: center;
+    
+    }
+    #nav1 ul li{
+        display: inline-block;
+
+    }
+
+    #logo{
+    
+
+
+
+    }
+  
+    #links, .shapka, .podval, #nav1, .form, .table{
+
+        max-width: 960px;
+
+
+    }
+        .table{
+            order:1;
+        }
+        .form{
+            order:2;
+        }
+        #nav1 ul li{
+            display: inline-block;
+            list-style-type: disc;
+        }
+        header{
+       
+        }
+        #img1{
+
+        }
+        #img2{
+
+        }
+        #tb{
+            
+        }
+    }
+  
