@@ -32,7 +32,6 @@ header, footer{
     
     
 }
-
 .container, .podval, #nav1, .form, .table{
     margin:0 auto;
     background-color: beige;
@@ -52,12 +51,16 @@ header, footer{
 header{
     margin-bottom: 10px;
 }
-
+#nav-wrap{
+    padding-top: 120px;
+}
 
 #nav1{
+    text-align: center;
     float: none;
     padding-top: 0px;
     padding-bottom: 0px;
+    border-top: 0.6rem solid white;
 }
 #nav1 ul{
     padding-right: 20px;
@@ -101,20 +104,27 @@ tr:nth-child(2n) {
 th {
     background: beige;
 }
+#links{
+    order: 1;
+}
 .table{
-    order:2;
+    order:0;
 }
 .form{
-    order:1;
+    order:2;
 }
 footer{
     order: 3;
-    background-color: bisque;
+    
 }
-.podval{
-    background-color: bisque;
-}
+
 @media screen and (min-device-width: 800px) {
+    #nav-wrap{
+        padding-top: 0;
+    }
+    #nav1{
+        border-top: none;
+    }
     #wrapper {
         display: block;
         flex-direction: row;
@@ -126,21 +136,7 @@ footer{
         float: left;
     }
 
-    #nav1{
-        width: 450px;
-        padding-bottom: 5px;
-        float: right;
-    }
-    #nav1 ul{
-        text-align: center;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-    #nav1 ul li{
-        display: inline-block;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
+
 
     #logo{
         padding: 0 10px 0 0;
@@ -166,12 +162,20 @@ footer{
         .form{
             order:2;
         }
+        #nav1{
+            width: 280px;
+            padding-bottom: 5px;
+            float: right;
+        }
+        #nav1 ul{
+            text-align: center;
+            padding-left: 2px;
+    
+        }
         #nav1 ul li{
             display: inline-block;
-            margin-left: 10%;
-            margin-right: 10%;
-            list-style-type: disc;
-            margin-bottom:0vw;
+            margin-left: 2%;
+    
         }
         header{
             height: 120px;
