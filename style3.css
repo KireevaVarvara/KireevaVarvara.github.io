@@ -1,195 +1,189 @@
 html {
-    height: 100%
-}
-h1{
+    height: 100%;
+  }
+  h1 {
     float: right;
-}
-h2{
+  }
+  h2 {
     margin-top: 0;
     text-align: center;
     background-color: bisque;
-}
-#wrapper {
+  }
+  #wrapper {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-}
-#img1{
-
+  }
+  #img1 {
     max-width: 100%;
     height: auto;
-}
-#maptest{
+  }
+  #maptest {
     max-width: 100%;
     height: auto;
-}
-body{
-    margin:0px;
-    background:white;
-}
-header, footer{
+  }
+  body {
+    margin: 0px;
+    background: white;
+  }
+  header,
+  footer {
     background-color: beige;
-    
-    
-}
-.container, .podval, #nav1, .form, .table{
-    margin:0 auto;
+  }
+  .container,
+  .podval,
+  #nav1,
+  .form,
+  .table {
+    margin: 0 auto;
     background-color: beige;
     margin-bottom: 10px;
     width: 100vw;
-
+  
     padding: 0 0 4vw 0;
-
-}
-
-.shapka, .podval
-{
+  }
+  
+  .shapka,
+  .podval {
     background-color: beige;
-    
-}
-
-header{
+  }
+  
+  header {
     margin-bottom: 10px;
-}
-#nav-wrap{
+  }
+  #nav-wrap {
     padding-top: 120px;
-}
-
-#nav1{
+  }
+  
+  #nav1 {
     text-align: center;
     float: none;
     padding-top: 0px;
     padding-bottom: 0px;
     border-top: 0.6rem solid white;
-}
-#nav1 ul{
+  }
+  #nav1 ul {
     padding-right: 20px;
-
-}
-#nav1 ul li{
-    
+  }
+  #nav1 ul li {
     margin-right: 10%;
     list-style-type: none;
-    margin-bottom:1vw;
-}
-nav a{
+    margin-bottom: 1vw;
+  }
+  nav a {
     text-decoration: none;
     color: black;
-}
-
-#logo{
+  }
+  
+  #logo {
     float: left;
     width: 100px;
     height: 100px;
     padding: 0 1vw 0 1vw;
-}
-table {
+  }
+  table {
     border-collapse: collapse;
     border: 3px solid grey;
     width: 10vw;
     text-align: center;
-    
-}
-td, th {
+  }
+  td,
+  th {
     border: 1px solid grey;
-}
-tr:nth-child(2n+1) {
+  }
+  tr:nth-child(2n + 1) {
     background: beige;
-}
-tr:nth-child(2n) {
+  }
+  tr:nth-child(2n) {
     background: bisque;
-
-}
-
-th {
+  }
+  
+  th {
     background: beige;
-}
-#links{
+  }
+  #links {
     order: 1;
-}
-.table{
-    order:0;
-}
-.form{
-    order:2;
-}
-footer{
+  }
+  .table {
+    order: 0;
+  }
+  .form {
+    order: 2;
+  }
+  footer {
     order: 3;
-    
-}
-
-@media screen and (min-device-width: 800px) {
-    #nav-wrap{
-        padding-top: 0;
+  }
+  
+  @media screen and (min-device-width: 800px) {
+    #nav-wrap {
+      padding-top: 0;
     }
-    #nav1{
-        border-top: none;
+    #nav1 {
+      border-top: none;
     }
     #wrapper {
-        display: block;
-        flex-direction: row;
-        flex-wrap: wrap;
+      display: block;
+      flex-direction: row;
+      flex-wrap: wrap;
     }
-    h1{
-        margin-top: 50px;
-        width: 400px;
-        float: left;
-    }
-
-
-
-    #logo{
-        padding: 0 10px 0 0;
-        float: left;
-        width: 100px;
-        height: 100px;
-        padding-right: 10px;
-
-
+    h1 {
+      margin-top: 50px;
+      width: 400px;
+      float: left;
     }
   
-    .container, .shapka, .podval, #nav1, .form, .table{
-        margin:0 auto;
-        max-width: 960px;
-
-
-        margin-bottom: 10px;
-        padding: 0 0 10px 0;
+    #logo {
+      padding: 0 10px 0 0;
+      float: left;
+      width: 100px;
+      height: 100px;
+      padding-right: 10px;
     }
-        .table{
-            order:1;
-        }
-        .form{
-            order:2;
-        }
-        #nav1{
-            width: 280px;
-            padding-bottom: 5px;
-            float: right;
-        }
-        #nav1 ul{
-            text-align: center;
-            padding-left: 2px;
-    
-        }
-        #nav1 ul li{
-            display: inline-block;
-            margin-left: 2%;
-    
-        }
-        header{
-            height: 120px;
-        }
-        #img1{
-            width:200px;
-            height:200px;
-        }
-        #img2{
-            width:549px;
-            height:164px;
-        }
-        #tb{
-            width: 600px;
-        }
+  
+    .container,
+    .shapka,
+    .podval,
+    #nav1,
+    .form,
+    .table {
+      margin: 0 auto;
+      max-width: 960px;
+  
+      margin-bottom: 10px;
+      padding: 0 0 10px 0;
     }
+    .table {
+      order: 1;
+    }
+    .form {
+      order: 2;
+    }
+    #nav1 {
+      width: 280px;
+      padding-bottom: 5px;
+      float: right;
+    }
+    #nav1 ul {
+      text-align: center;
+      padding-left: 2px;
+    }
+    #nav1 ul li {
+      display: inline-block;
+      margin-left: 2%;
+    }
+    header {
+      height: 120px;
+    }
+    #img1 {
+      width: 200px;
+      height: 200px;
+    }
+    #img2 {
+      width: 549px;
+      height: 164px;
+    }
+    #tb {
+      width: 600px;
+    }
+  }
   
