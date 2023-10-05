@@ -1,218 +1,191 @@
-body 
-{
-  margin: 0;
-  background-color: beige;
-  font-size: 20px;
+html {
+    height: 100%
 }
-
-#main-aside-wrapper 
-{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  min-height: 100%;
-  margin: 10px;
-  padding: 10px;
-}
-
-#main-aside-wrapper main, #main-aside-wrapper aside 
-{
-  background-color: beige;
-}
-
-#main-aside-wrapper aside 
-{
-  flex: 1;
-  order: 1;
-}
-
-#main-aside-wrapper main 
-{
-  flex: 1;
-  order: 2;
-}
-
-#main-aside-wrapper nav 
-{
-  flex: 1;
-  order: 3;
-  display: block;
-}
-
-#main-aside-wrapper links 
-{
-  flex: 1;
-  order: 5;
-}
-
-#main-aside-wrapper tabl 
-{
-  flex: 1;
-  order: 4;
-}
-
-#main-aside-wrapper forma 
-{
-  flex: 1;
-  order: 6;
-}
-
-#main-aside-wrapper foot 
-{
-  flex: 1;
-  order: 7;
-  background-color: bisque;
-}
-
-@media screen and (min-width: 1000px) 
-{
-  #main-aside-wrapper 
-  {
-    flex-direction: column;
-    flex: 1;
-    order: 1;
-    margin: 0 auto;
-    background-color: beige;
-  }
-  #main-aside-wrapper aside 
-  {
-    background-color: bisque;
-  }
-  #main-aside-wrapper main 
-  {
-    flex: 1;
-    order: 3;
-    background-color: beige;
-  }
-
-  #main-aside-wrapper nav 
-  {
-    flex: 1;
-    order: 2;
-    position: relative;
-    left: 70%;
-    width: 100%;
-  }
-
-  #main-aside-wrapper links 
-  {
-    flex: 1;
-    order: 4;
-  }
-
-  #main-aside-wrapper tabl 
-  {
-    flex: 1;
-    order: 5;
-    text-align: center;
-  }
-
-  #main-aside-wrapper forma 
-  {
-   flex: 1;
-    order: 6;
-  }
-
-  #main-aside-wrapper foot 
-  {
-    flex: 1;
-    order: 7;
-    background-color: bisque;
-  }
-
-  #main-aside-wrapper ul li 
-  {
-   display: inline;
-  }
-}
-
-#logo 
-{
-   float: left;
-   max-width: 100%;
-   height: auto;
-}
-
-header
-{
-  background-color:bisque;
-  padding: 15px;
-  height: 110px;
-  margin: 0;
-  width: 100%;
-  display: block;
-}
-
-.menu 
-{
-  position: absolute;
-  top: 0;
-  right: 150px;
-  font-size: 20px;
-  font-size: larger;
-}
-
-.menu a 
-{
-  margin-right: 15px;
-}
-  
-.name 
-{
-  background-color:bisque;
-  padding: 10px;
-}
-  
-.body 
-{
-  max-width: 900px;
-  background-color:rgb(255, 255, 228);
-  margin: 0 auto;
-  margin-top: 15px;
-  padding: 10px;
-}
-  
-footer 
-{
-  background-color:bisque;
-  height: 25px;
-  padding: 10px;
-  text-align: left;
-  width: 100%;
-  display: block;
-  margin-top: 20px;
-}
-  
-th, td 
-{
-  padding: 5px;
-  text-align: center;
-}
-  
-th 
-{
-  font-size: 20px;
-  background-color:bisque;
-}
-  
-tr:nth-child(even) 
-{
-  font-size: 20px;
-  color: #000000;
-  background-color: beige;
-}
-  
-tr:nth-child(odd) 
-{
-  font-size: 20px;
-  color: #000000;
-  background-color: bisque;
-}
-
 h1{
-  font-size: 40px;
+    float: right;
 }
-h2,h3,h4
+h2{
+    margin-top: 0;
+    text-align: center;
+    background-color: bisque;
+}
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#img1{
+
+    max-width: 100%;
+    height: auto;
+}
+#maptest{
+    max-width: 100%;
+    height: auto;
+}
+body{
+    margin:0px;
+    background:white;
+}
+header, footer{
+    background-color: beige;
+    
+    
+}
+
+.container, .podval, #nav1, .form, .table{
+    margin:0 auto;
+    background-color: beige;
+    margin-bottom: 10px;
+    width: 100vw;
+
+    padding: 0 0 4vw 0;
+
+}
+
+.shapka, .podval
 {
-  font-size: 30px;
+    background-color: beige;
+    
 }
+
+header{
+    margin-bottom: 10px;
+}
+
+
+#nav1{
+    float: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#nav1 ul{
+    padding-right: 20px;
+
+}
+#nav1 ul li{
+    
+    margin-right: 10%;
+    list-style-type: none;
+    margin-bottom:1vw;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+#logo{
+    float: left;
+    width: 100px;
+    height: 100px;
+    padding: 0 1vw 0 1vw;
+}
+table {
+    border-collapse: collapse;
+    border: 3px solid grey;
+    width: 10vw;
+    text-align: center;
+    
+}
+td, th {
+    border: 1px solid grey;
+}
+tr:nth-child(2n+1) {
+    background: beige;
+}
+tr:nth-child(2n) {
+    background: bisque;
+
+}
+
+th {
+    background: beige;
+}
+.table{
+    order:2;
+}
+.form{
+    order:1;
+}
+footer{
+    order: 3;
+    background-color: bisque;
+}
+.podval{
+    background-color: bisque;
+}
+@media screen and (min-device-width: 800px) {
+    #wrapper {
+        display: block;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    h1{
+        margin-top: 50px;
+        width: 400px;
+        float: left;
+    }
+
+    #nav1{
+        width: 450px;
+        padding-bottom: 5px;
+        float: right;
+    }
+    #nav1 ul{
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    #nav1 ul li{
+        display: inline-block;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #logo{
+        padding: 0 10px 0 0;
+        float: left;
+        width: 100px;
+        height: 100px;
+        padding-right: 10px;
+
+
+    }
+  
+    .container, .shapka, .podval, #nav1, .form, .table{
+        margin:0 auto;
+        max-width: 960px;
+
+
+        margin-bottom: 10px;
+        padding: 0 0 10px 0;
+    }
+        .table{
+            order:1;
+        }
+        .form{
+            order:2;
+        }
+        #nav1 ul li{
+            display: inline-block;
+            margin-left: 10%;
+            margin-right: 10%;
+            list-style-type: disc;
+            margin-bottom:0vw;
+        }
+        header{
+            height: 120px;
+        }
+        #img1{
+            width:200px;
+            height:200px;
+        }
+        #img2{
+            width:549px;
+            height:164px;
+        }
+        #tb{
+            width: 600px;
+        }
+    }
+  
