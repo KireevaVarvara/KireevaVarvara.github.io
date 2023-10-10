@@ -4,7 +4,7 @@ html,body {
     font-size:20px;
 }
 
-form, span{
+form{
     color:white;
 }
 
@@ -12,6 +12,11 @@ span
 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
+    
+}
+.calculator
+{
+    background-color: rgb(140, 205, 205);
 }
 .wrapper{
     margin-top: 10vw;
