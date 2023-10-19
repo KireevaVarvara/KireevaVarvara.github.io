@@ -1,0 +1,26 @@
+html,body {
+    background: rgb(66, 60, 60);
+    font-family: monospace;
+    font-size:20px;
+}
+
+form{
+    color:white;
+}
+
+span
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.calculator
+{
+    background-color: rgb(140, 205, 205);
+}
+.wrapper{
+    margin-top: 10vw;
+}
+
+.b-f{
+    margin: 5vw;
+}
