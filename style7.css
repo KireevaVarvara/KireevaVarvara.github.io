@@ -1,0 +1,34 @@
+html,
+body {
+  font-family: monospace;
+  font-size: 20px;
+}
+body {
+  background: rgba(58, 89, 136, 0.596);
+}
+
+.b-slider-responsive {
+  width: 90%;
+  margin: 100px auto;
+}
+
+.b-slider-responsive .slick-slide {
+  margin: 0px 5px;
+  border: 2px solid;
+
+  border-color: white;
+}
+
+.b-slider-responsive .slick-slide img {
+  width: 100%;
+
+}
+
+.b-slider-responsive .slick-dots {
+  bottom: auto;
+}
+
+.b-slider-responsive .slick-dots li button:before,
+.b-slider-responsive .slick-dots li.slick-active button:before {
+  color: white;
+}
