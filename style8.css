@@ -96,7 +96,7 @@ textarea{
 #myOverlay {
 	z-index: 0;
     position: fixed;
-    background: black;
+    background: beige;
     height: 100%;
     cursor: pointer;
     display: none;
